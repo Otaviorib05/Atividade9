@@ -1,0 +1,32 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f4f5f7; color: #222; }
+
+h1 { text-align: center; }
+
+#controls { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 20px; }
+
+#controls input, #controls select, #controls button { padding: 8px 12px; font-size: 1rem; }
+
+main { display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap; }
+
+#product-list { flex: 1 1 600px; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
+
+aside { flex: 0 1 300px; background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 16px; position: sticky; top: 20px; }
+
+.card { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 12px; display: flex; flex-direction: column; gap: 6px; transition: box-shadow .2s, border-color .2s; }
+
+.card img { width: 100%; height: 140px; object-fit: cover; border-radius: 6px; }
+
+.card-title { font-size: 1rem; margin: 4px 0 0; }
+
+.card-price { font-weight: bold; color: #0a7a3d; }
+
+.card-category { font-size: .85rem; color: #666; }
+
+.card-actions { display: flex; gap: 6px; margin-top: auto; }
+
+.card-actions button { flex: 1; padding: 6px; cursor: pointer; }
+
+.highlight { border: 2px solid #ff9800; background: #fff8e6; box-shadow: 0 4px 12px rgba(255, 152, 0, .4); }
+
+.stock-yes { color: #0a7a3d; } .stock-no { color: #c62828; }

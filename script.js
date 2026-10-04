@@ -1,13 +1,13 @@
 const data = {
   produtos: [
-    { id: 1, nome: "Smartphone Galaxy X", preco: 2499.9, categoria: "Celulares", imagem: "https://placehold.co/300x200?text=Galaxy+X", descricao: "Tela AMOLED de 6,5 polegadas, 128 GB e câmera tripla.", emEstoque: true },
-    { id: 2, nome: "iPhone Pro Mini", preco: 5999.0, categoria: "Celulares", imagem: "https://placehold.co/300x200?text=iPhone+Pro", descricao: "Chip de última geração e câmera com estabilização óptica.", emEstoque: false },
-    { id: 3, nome: "Notebook UltraBook 14", preco: 4299.5, categoria: "Notebooks", imagem: "https://placehold.co/300x200?text=UltraBook", descricao: "Intel i7, 16 GB de RAM, SSD de 512 GB e tela Full HD.", emEstoque: true },
-    { id: 4, nome: "Notebook Gamer Titan", preco: 7899.9, categoria: "Notebooks", imagem: "https://placehold.co/300x200?text=Titan", descricao: "RTX 4060, 32 GB de RAM e tela de 165 Hz.", emEstoque: true },
-    { id: 5, nome: "Fone Bluetooth Pro", preco: 349.9, categoria: "Acessórios", imagem: "https://placehold.co/300x200?text=Fone", descricao: "Cancelamento de ruído ativo e 30 horas de bateria.", emEstoque: true },
-    { id: 6, nome: "Mouse Sem Fio Ergo", preco: 129.0, categoria: "Acessórios", imagem: "https://placehold.co/300x200?text=Mouse", descricao: "Design ergonômico, 1600 DPI e bateria de longa duração.", emEstoque: false },
-    { id: 7, nome: "Console PlayStation 5", preco: 3799.0, categoria: "Games", imagem: "https://placehold.co/300x200?text=Console", descricao: "SSD ultrarrápido, 4K e controle DualSense.", emEstoque: true },
-    { id: 8, nome: "Controle Gamer Sem Fio", preco: 399.9, categoria: "Games", imagem: "https://placehold.co/300x200?text=Controle", descricao: "Compatível com PC e consoles, com vibração e bateria recarregável.", emEstoque: true }
+    { id: 1, nome: "Smartphone Galaxy X", preco: 2499.9, categoria: "Celulares", imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCvvIP5Tfdx_TJLOh29WRykl4SNnXXyc52w3aOJw07cw&s=10", descricao: "Tela AMOLED de 6,5 polegadas, 128 GB e câmera tripla.", emEstoque: true },
+    { id: 2, nome: "iPhone Pro Mini", preco: 5999.0, categoria: "Celulares", imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYgzBF8qnwip336tkP7Y9xvdPSb6e_ZQHytrjSK50vgw&s=10", descricao: "Chip de última geração e câmera com estabilização óptica.", emEstoque: false },
+    { id: 3, nome: "Notebook UltraBook 14", preco: 4299.5, categoria: "Notebooks", imagem: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRMGRvVOEoqHiyBQS5afgzGureE28121NdQlCAxqY8D4cf03_fyqJOPCvc9mwW2-24ZJ3vMqfHJU3V_-Hkh2V6oyuybnmf9M1CF3YRdhq4MHeE8goOnVN1_-ehsejgmc_-OLV3-6g6Hbg&usqp=CAc", descricao: "Intel i7, 16 GB de RAM, SSD de 512 GB e tela Full HD.", emEstoque: true },
+    { id: 4, nome: "Notebook Gamer Titan", preco: 7899.9, categoria: "Notebooks", imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlcSuTGj_I2RC3uj5aMksfmQwFmESC1xMhgqlwmEwJJA&s=10", descricao: "RTX 4060, 32 GB de RAM e tela de 165 Hz.", emEstoque: true },
+    { id: 5, nome: "Fone Bluetooth Pro", preco: 349.9, categoria: "Acessórios", imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGqJXdRV5xwOaLDUADkTfTxPsWR5og-JhIC_0rTMaQNw&s=10", descricao: "Cancelamento de ruído ativo e 30 horas de bateria.", emEstoque: true },
+    { id: 6, nome: "Mouse Sem Fio Ergo", preco: 129.0, categoria: "Acessórios", imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgrZv9BTkbgxACWMrToJVULt-H2q28Nc_l4YxEk5xrVg&s=10", descricao: "Design ergonômico, 1600 DPI e bateria de longa duração.", emEstoque: false },
+    { id: 7, nome: "Console PlayStation 5", preco: 3799.0, categoria: "Games", imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRySmOAlcS_q_vOUCCoDly0pukEylRfPw9Y3aPL-8gfvQ&s=10", descricao: "SSD ultrarrápido, 4K e controle DualSense.", emEstoque: true },
+    { id: 8, nome: "Controle Gamer Sem Fio", preco: 399.9, categoria: "Games", imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5JWyzug29kaz4LKz8JS5taE7lKi2dAXCTVgHk8sbjHg&s=10", descricao: "Compatível com PC e consoles, com vibração e bateria recarregável.", emEstoque: true }
   ]
 };
 
